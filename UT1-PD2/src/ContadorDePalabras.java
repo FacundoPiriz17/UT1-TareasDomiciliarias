@@ -51,7 +51,7 @@ public class ContadorDePalabras extends JFrame {
 
     public ContadorDePalabras(){
 
-        setSize(400, 800);
+        setSize(400, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
         setLocationRelativeTo(null);
