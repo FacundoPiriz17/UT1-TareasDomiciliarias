@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UT1-PD1/UT1-PD1.iml" filepath="$PROJECT_DIR$/UT1-PD1/UT1-PD1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UT1-PD10/UT1-PD10.iml" filepath="$PROJECT_DIR$/UT1-PD10/UT1-PD10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UT1-PD2/UT1-PD2.iml" filepath="$PROJECT_DIR$/UT1-PD2/UT1-PD2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UT1-PD4/UT1-PD4.iml" filepath="$PROJECT_DIR$/UT1-PD4/UT1-PD4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UT1-PD5/UT1-PD5.iml" filepath="$PROJECT_DIR$/UT1-PD5/UT1-PD5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UT1-PD6/UT1-PD6.iml" filepath="$PROJECT_DIR$/UT1-PD6/UT1-PD6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UT1-PD7/UT1-PD7.iml" filepath="$PROJECT_DIR$/UT1-PD7/UT1-PD7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UT1-PD8/UT1-PD8.iml" filepath="$PROJECT_DIR$/UT1-PD8/UT1-PD8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UT1-PD9/UT1-PD9.iml" filepath="$PROJECT_DIR$/UT1-PD9/UT1-PD9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/UT1-TareasDomiciliarias.iml" filepath="$PROJECT_DIR$/.idea/UT1-TareasDomiciliarias.iml" />
+    </modules>
+  </component>
+</project>

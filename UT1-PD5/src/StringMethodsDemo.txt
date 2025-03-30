@@ -1,0 +1,53 @@
+# Métodos:
+
+substring()
+Recibe 2 parámetros, 2 int, el segundo puede omitirse. Este método se encarga de dividir la cadena y divide una subcadena del String original.
+
+split()
+Puede recibir 2 parámetros:
+
+- Solo un String.
+- un String y un int
+
+Se encarga de dividir la cadena, el String indica que carácter va a usar para ello y el int es un límite de caracteres para los cuales se aplicará la división.
+
+subSequence()
+Recibe 2 int como parámetros, tiene la misma función de substring, pero no retorna un String, sino un CharSequence.
+
+trim()
+No recibe parámetros. Elimina espacios al inicio y al final del String.
+
+toLowerCase()
+No recibe parámetros. Convierte todos los carácteres a minúsculas.
+
+toUpperCase()
+No recibe parámetros. Convierte todos los carácteres a mayúsculas.
+
+indexOf()
+Puede recibir diferentes parámetros:
+
+- Un String. Devuelve el índice en donde se encuentra la primer aparición del carácter o substring.
+- Un String y un Int, devuelve la primer aparición buscando a partir del índice especificado.
+- Solo un Int, devuelve -1.
+
+lastIndexOf()
+Puede recibir diferentes parámetros:
+
+- Un String. Devuelve el índice en donde se encuentra la última aparición del carácter o substring.
+- Un String y un Int, devuelve la última aparición buscando a partir del índice especificado.
+- Solo un Int, devuelve -1.
+
+contains()
+Recibe un parámetro charSequence, se encarga de verificar si una cadena está contenida en otra. Devuelve un booleano
+
+replace()
+Puede recibir diferentes parámetros:
+
+- Recibe 2 char, se encarga de reemplazar los carácteres en el String.
+- Recibe 2 charSequence, idem al anterior
+
+replaceAll()
+Recibe 2 Strings como parámetros. Reemplaza carácteres en el string.
+
+replaceFirst()
+Recibe 2 Strings como parámetros. Reemplaza carácteres en el string.

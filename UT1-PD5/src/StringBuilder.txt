@@ -1,0 +1,29 @@
+Constructor:
+
+El constructor de la clase StringBuilder se puede inicializar de tres formas diferentes:
+Sin parámetro el cual crea un StringBuilder vacío.
+Con un String como parámetro, el cual se podrá imprimir en consola por ejemplo.
+O con un int como parámetro, este creará un StringBuilder vacío pero con x caractéres de capacidad.
+
+# Métodos:
+
+setLength()
+Recibe un Int como parámetro y se encarga de modificar la longitud del StringBuilder.
+
+ensureCapacity()
+Recibe un Int como parámetro y se encarga de que el StringBuilder tenga una capacidad mínima especificada.
+
+append()
+Recibe un String como parámetro y se encarga de agregar un texto al final del StringBuilder.
+
+insert()
+Recibe 2 parámetros, un int y un String. Tiene la función de insertar una cadena en una posición específica.
+
+delete()
+Recibe 2 int como parámetros, se encarga de eliminar caracteres en un rango dado.
+
+deleteCharAt()
+Recibe un Int como parámetro y se encarga de eliminar un carácter en una posición indicada.
+
+reverse()
+Sin parámetro, invierte la cadena de carácteres.
