@@ -51,62 +51,62 @@ public class ContadorDePalabras extends JFrame {
 
     public ContadorDePalabras(){
 
-        setSize(400, 400);
+        setSize(400, 450);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
         setLocationRelativeTo(null);
 
         int width = 400;
-        JTextField campo = new JTextField();
-        campo.setBounds((width - 300) / 2, 100, 200, 30);
-        add(campo);
+        JTextField ventana = new JTextField();
+        ventana.setBounds((width - 300) / 2, 75, 200, 30);
+        add(ventana);
 
         JButton boton = new JButton("OK");
-        boton.setBounds((width + 100) / 2, 100, 100, 30);
+        boton.setBounds((width + 100) / 2, 75, 100, 30);
         add(boton);
 
         label = new JLabel("", SwingConstants.CENTER);
-        label.setBounds((width - 300) / 2, 200, 300, 50);
+        label.setBounds((width - 300) / 2, 100, 300, 50);
 
-        JCheckBox checkBox = new JCheckBox("Opcion 1");
-        checkBox.setBounds((width - 300) / 2, 300, 300, 50);
-        add(checkBox);
-        checkBox.addActionListener(new ActionListener() {
+        JCheckBox checkBox1 = new JCheckBox("Opción 1");
+        checkBox1.setBounds((width - 300) / 2, 150, 300, 50);
+        add(checkBox1);
+        checkBox1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "Opcion 1");
+                JOptionPane.showMessageDialog(null, "Elegiste la Opcion 1");
             }
         });
-        JCheckBox checkBox2 = new JCheckBox("Opcion 2");
-        checkBox2.setBounds((width - 300) / 2, 400, 300, 50);
+        JCheckBox checkBox2 = new JCheckBox("Opción 2");
+        checkBox2.setBounds((width - 300) / 2, 200, 300, 50);
         add(checkBox2);
         checkBox2.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "Opcion 2");
+                JOptionPane.showMessageDialog(null, "Elegiste la Opcion 2");
             }
         });
-        JCheckBox checkBox3 = new JCheckBox("Opcion 3");
-        checkBox3.setBounds((width - 300) / 2, 500, 300, 50);
+        JCheckBox checkBox3 = new JCheckBox("Opción 3");
+        checkBox3.setBounds((width - 300) / 2, 250, 300, 50);
         add(checkBox3);
         checkBox3.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "Opcion 3");
+                JOptionPane.showMessageDialog(null, "Elegiste la Opcion 3");
             }
         });
 
         boton.addActionListener(new ActionListener() {
 
             public void actionPerformed(ActionEvent e) {
-                String palabras = campo.getText();
+                String palabras = ventana.getText();
                 String resultado = "";
-                if (checkBox.isSelected()) {
-                    resultado += contadorDePalabras(palabras) +" ";
+                if (checkBox1.isSelected()) {
+                    resultado += contadorDePalabras(palabras) +", ";
                 }
 
                 if (checkBox2.isSelected()) {
-                    resultado += contadorDeVocales(palabras) +" ";
+                    resultado += contadorDeVocales(palabras) +", ";
 
                 } if (checkBox3.isSelected()) {
-                    resultado += contadorDeConsonantes(palabras) +" ";
+                    resultado += contadorDeConsonantes(palabras) +", ";
                 }
                 label.setText(resultado);
                 add(label);
